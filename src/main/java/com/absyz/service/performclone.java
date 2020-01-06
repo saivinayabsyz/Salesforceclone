@@ -52,7 +52,7 @@ public class performclone {
 
     private static final double API_VERSION = 31.0; 
 
-    public static void main(String[] args) throws Exception {
+    public static string startretrieve(HttpServletRequest request) throws Exception {
         final String USERNAME = request.getParameter("sourceemail");
         // This is only a sample. Hard coding passwords in source files is a bad practice.
         final String PASSWORD = request.getParameter("sourcepassword"); 
@@ -60,6 +60,7 @@ public class performclone {
         
         RetrieveSample sample = new RetrieveSample(USERNAME, PASSWORD, URL);
         sample.retrieveZip();
+     return "success";
     }
     
     public RetrieveSample(String username, String password, String loginUrl) 
