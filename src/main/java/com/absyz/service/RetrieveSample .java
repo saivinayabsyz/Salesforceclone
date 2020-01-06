@@ -36,7 +36,7 @@ import com.sforce.soap.enterprise.LoginResult;
 import com.sforce.ws.ConnectionException;
 import com.sforce.ws.ConnectorConfig;
 import com.sforce.soap.metadata.PackageTypeMembers;
-public class performclone {
+public class RetrieveSample  {
  // Binding for the metadata WSDL used for making metadata API calls
     private MetadataConnection metadataConnection;
     
