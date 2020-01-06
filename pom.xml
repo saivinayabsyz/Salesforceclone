@@ -49,6 +49,13 @@
     <artifactId>force-partner-api</artifactId>
     <version>48.0.0</version>
 </dependency>
+	   <!-- https://mvnrepository.com/artifact/com.liferay/com.sforce.soap.partner -->
+<dependency>
+    <groupId>com.liferay</groupId>
+    <artifactId>com.sforce.soap.partner</artifactId>
+    <version>1.0.2</version>
+</dependency>
+
 <!-- https://mvnrepository.com/artifact/com.force.api/force-apex-api -->
 <dependency>
     <groupId>com.force.api</groupId>
