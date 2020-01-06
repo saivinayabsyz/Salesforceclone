@@ -52,7 +52,7 @@
 	   <!-- https://mvnrepository.com/artifact/com.liferay/com.sforce.soap.partner -->
 <dependency>
     <groupId>com.liferay</groupId>
-    <artifactId>com.sforce.soap</artifactId>
+    <artifactId>com.sforce.soap.enterprise</artifactId>
     <version>1.0.2</version>
 </dependency>
 
