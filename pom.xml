@@ -37,6 +37,13 @@
     <artifactId>force-wsc</artifactId>
     <version>22.0.0</version>
 </dependency>
+	 <dependency>
+	<groupId>kz.idsoftware.sforce</groupId>
+	<artifactId>sforce-tooling-api</artifactId>
+	<version>35.0</version>
+</dependency>
+<!-- Thanks for using https://jar-download.com -->
+
 
 	   <!-- https://mvnrepository.com/artifact/com.googlecode.json-simple/json-simple -->
 <!-- https://mvnrepository.com/artifact/org.json/json -->
