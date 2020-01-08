@@ -50,6 +50,12 @@
     <artifactId>js</artifactId>
     <version>1.7R2</version>
 </dependency>
+<!-- https://mvnrepository.com/artifact/wsdl4j/wsdl4j -->
+<dependency>
+    <groupId>wsdl4j</groupId>
+    <artifactId>wsdl4j</artifactId>
+    <version>1.6.2</version>
+</dependency>
 
 	   <!-- https://mvnrepository.com/artifact/com.force.api/force-metadata-api -->
 <dependency>
